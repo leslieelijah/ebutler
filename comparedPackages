@@ -1,0 +1,8 @@
+var compareHeader =
+            <div className="packageChannelInfoTitle" onClick={() => { showAllPackageChannels() }}>
+             <span className="largeScreenDescriptor">{this.props.translations.compareLabel1}&nbsp; </span>
+             <span className="smallScreenDescriptor">{this.props.translations.compareLabel3}&nbsp; </span>
+             <strong>{totalChannels}&nbsp;{this.props.translations.compareLabel4}</strong>
+             <span className="packageDescriptor"> {this.props.translations.compareLabel2}&nbsp; {selectedPackageName}</span>
+                 <button className="compareNav" onClick={this.compareAllPackages }>{this.state.compareLabelText}</button>
+            </div>

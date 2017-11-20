@@ -14,7 +14,7 @@ nav{    background-color: #8bc651 !important;
 ul li:nth-child(2) .dropdown-menu{ left: -16em;
                                 }
 .dropdown-menu a{ color:#FFF;}
-.logo{  background:no-repeat url('../img/assets/Logo.png');
+.logo{  background:no-repeat url('../images/assets/Logo.png');
         height:35px;
         width:150px;
         }
